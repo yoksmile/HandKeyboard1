@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="8.33332%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height"
+    >
+
+    <Row>
+      <!--  <Key android:codes="113" android:keyLabel="q" android:keyEdgeFlags="left"/> -->
+      <Key android:codes="ๅ" android:keyLabel="ๅ" android:keyOutputText="ๅ" android:keyEdgeFlags="left"/>
+        <Key android:codes="ฝ" android:keyLabel="ฝ" android:keyOutputText="ฝ"/>
+        <Key android:codes="ฦ" android:keyLabel="ฦ" android:keyOutputText="ฦ"/>
+        <Key android:codes="ภ" android:keyLabel="ภ" android:keyOutputText="ภ"/>
+        <Key android:codes="ถ" android:keyLabel="ถ" android:keyOutputText="ถ"/>
+        <Key android:codes="ุ" android:keyLabel="ุ" android:keyOutputText="ุ"/>
+        <Key android:codes="ึ" android:keyLabel=" ึ" android:keyOutputText="ึ"/>
+        <Key android:codes="ค" android:keyLabel="ค" android:keyOutputText="ค"/>
+        <Key android:codes="ต" android:keyLabel="ต" android:keyOutputText="ต"/>
+        <Key android:codes="จ" android:keyLabel="จ" android:keyOutputText="จ"/>
+        <Key android:codes="ข" android:keyLabel="ข" android:keyOutputText="ข"/>
+        <Key android:codes="ช" android:keyLabel="ช" android:keyOutputText="ช" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="ๆ" android:keyLabel="ๆ" android:keyOutputText="ๆ" android:keyEdgeFlags="left"/>
+        <Key android:codes="ไ" android:keyLabel="ไ" android:keyOutputText="ไ"/>
+        <Key android:codes="ำ" android:keyLabel=" ำ" android:keyOutputText="ำ"/>
+        <Key android:codes="พ" android:keyLabel="พ" android:keyOutputText="พ"/>
+        <Key android:codes="ะ" android:keyLabel="ะ" android:keyOutputText="ะ"/>
+        <Key android:codes="ั" android:keyLabel="ั" android:keyOutputText="ั"/>
+        <Key android:codes="ี" android:keyLabel=" ี" android:keyOutputText="ี"/>
+        <Key android:codes="ร" android:keyLabel="ร" android:keyOutputText="ร"/>
+        <Key android:codes="น" android:keyLabel="น" android:keyOutputText="น"/>
+        <Key android:codes="ย" android:keyLabel="ย" android:keyOutputText="ย"/>
+        <Key android:codes="บ" android:keyLabel="บ" android:keyOutputText="บ"/>
+        <Key android:codes="ล" android:keyLabel="ล" android:keyOutputText="ล" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="ฟ" android:keyLabel="ฟ" android:keyOutputText="ฟ" android:keyEdgeFlags="left" android:horizontalGap="4.16666666%p"/>
+        <Key android:codes="ห" android:keyLabel="ห" android:keyOutputText="ห"/>
+        <Key android:codes="ก" android:keyLabel="ก" android:keyOutputText="ก"/>
+        <Key android:codes="ด" android:keyLabel="ด" android:keyOutputText="ด"/>
+        <Key android:codes="เ" android:keyLabel="เ" android:keyOutputText="เ" />
+        <Key android:codes="้" android:keyLabel="้" android:keyOutputText="้" />
+        <Key android:codes="่" android:keyLabel="่" android:keyOutputText="่" />
+        <Key android:codes="า" android:keyLabel="า" android:keyOutputText="า"/>
+        <Key android:codes="ส" android:keyLabel="ส" android:keyOutputText="ส"/>
+        <Key android:codes="ว" android:keyLabel="ว" android:keyOutputText="ว"/>
+        <Key android:codes="ง" android:keyLabel="ง" android:keyOutputText="ง" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift" 
+                android:keyWidth="11.5%p" android:isModifier="true"
+                android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:codes="ผ" android:keyLabel="ผ" android:keyOutputText="ผ" android:horizontalGap="1%p"/>
+        <Key android:codes="ป" android:keyLabel="ป" android:keyOutputText="ป"/>
+        <Key android:codes="แ" android:keyLabel="แ" android:keyOutputText="แ"/>
+        <Key android:codes="อ" android:keyLabel="อ" android:keyOutputText="อ"/>
+        <Key android:codes="ิ" android:keyLabel=" ิ" android:keyOutputText="ิ"/>
+        <Key android:codes="ื" android:keyLabel=" ื" android:keyOutputText="ื"/>
+        <Key android:codes="ท" android:keyLabel="ท" android:keyOutputText="ท"/>
+        <Key android:codes="ม" android:keyLabel="ม" android:keyOutputText="ม"/>
+        <Key android:codes="ใ" android:keyLabel="ใ" android:keyOutputText="ใ"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" 
+                android:keyWidth="11.5%p" android:keyEdgeFlags="right"
+                android:isRepeatable="true"  android:horizontalGap="1%p"/>
+    </Row>
+    
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-3" android:keyIcon="@drawable/sym_keyboard_done" 
+                android:keyWidth="15%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="-99"  android:keyIcon="@drawable/hand2011_" android:keyWidth="15%p"/>
+        <Key android:codes="-2" android:keyLabel="sym" android:keyWidth="15%p"/>
+        <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" 
+                android:keyWidth="20%p" android:isRepeatable="true"/>
+        <Key android:codes="46,44" android:keyLabel=". ,"
+                android:keyWidth="15%p"/>
+        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" 
+                android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
+    
+<!-- From: file:/C:/Users/USER/workspace/HandKeyboard/res/xml/kb_th.xml -->
